@@ -1,11 +1,11 @@
 import React from "react";
-
+import Image from "next/image";
 
 const Banner = () => {
   return (
-    <>
-    <div className="Banner-BG">
-        <div className="Banner-Text">
+    <> 
+<Image src='/img/BG.jpg' width='1842' height='900' />
+        {/* <div className="Banner-Text">
         <h1>BRANDING</h1>
         <h2>unique and recongnizable</h2>
         <p>
@@ -14,11 +14,7 @@ const Banner = () => {
           elements that are unique and recognizable for your business
         </p>
         <button>ABOUT US</button>
-        </div>
-        {/* <div>
-<img src={BannerPic} alt="" />
         </div> */}
-      </div>
     </>
   );
 };

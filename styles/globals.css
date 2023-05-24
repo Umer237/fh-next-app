@@ -42,13 +42,7 @@ p{
   /*--------Header-End--------*/
 
   /*--------Banner---------*/
-  /* .Banner-BG{
-    background-image:url('../img/BG.jpg') ;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-} */
+
 .Banner-Text{
     padding-left: 100px;
     padding-top: 150px;
@@ -57,10 +51,12 @@ p{
     font-weight: 500;
     padding-top: 100px;
     line-height: 1;
+margin: 0;
 }
 .Banner-BG h2{
     font-weight: 500;
     line-height: 1.3;
+    margin: 0;
 }
 .Banner-BG p{
     width: 490px;
@@ -111,3 +107,340 @@ p{
     box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
     transform: translateY(-6px);
 }
+/*------Banner-End------*/
+
+/*------Our-Services------*/
+
+.Services-Top-Text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Services-Top-Text h2{
+    font-weight: 500;
+    padding-top:20px ;
+}
+.First-row{
+    display: flex;
+    padding-top: 50px;
+    /* background: #f5f5f5; */
+    text-align: center;
+    justify-content: space-evenly;
+}
+.First-row div{
+cursor: pointer;
+    width: 300px;
+}
+.First-row h3{
+    font-weight: 400;
+    margin: 0;
+}
+.Second-row h3{
+    font-weight: 400;
+    margin: 0;
+}
+.Second-row{
+    display: flex;
+    padding-top: 100px;
+    /* background: #f5f5f5; */
+    text-align: center;
+    padding-bottom: 60px;
+    justify-content: space-evenly;
+}
+.Second-row div{
+    width: 300px;
+    cursor: pointer;
+}
+.Services-Btn{
+    text-align: center;
+}
+.Services-Btn button{
+    width: 160px;
+    height: 45px;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    border: 0.1px solid rgb(107, 107, 107);
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.05);
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Services-Btn button:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+     top: 0;
+    left: 0; 
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.Services-Btn button:hover:after{
+    background-position: -20% 0;
+}
+.Services-Btn button:hover{
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    transform: translateY(-6px);
+}
+.Icons{
+    font-size: 40px;
+}
+
+/*---------Our-Services-End---------*/
+
+/*---------ChooseUs-------*/
+.Choose-Us-Flex{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Choose-Us-Flex img{
+    width: 550px;
+}
+.Choose-Us-Text{
+    text-align: center;
+}
+.Choose-Us-Text h2{
+    font-weight: 500;
+}
+.Choose-Us-Text p{
+    width: 587px;
+    padding-bottom: 20px;
+}
+.Choose-Us-Text button{
+    width: 180px;
+    height: 45px;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    border: 0.1px solid rgb(107, 107, 107);
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.05);
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+    font-size: 18px;
+    letter-spacing: 2px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Choose-Us-Text button:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+     top: 0;
+    left: 0; 
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.Choose-Us-Textt button:hover:after{
+    background-position: -20% 0;
+}
+.Choose-Us-Text button:hover{
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    transform: translateY(-6px);
+}
+/*--------ChooseUs-End------*/
+/*-------Our-Team-------*/
+.OurTeam-Top-Text{
+    text-align: center;
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.OurTeam-Top-Text h2{
+    font-weight: 500;
+}
+.Our-Team-Flex img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.Our-Team-Flex{
+    display: flex;
+    padding-top: 150px;
+padding-left: 200px;
+align-items: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.Our-Team-Flex h3{
+    line-height: 1;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+.Our-Team-Flex h4{
+    font-weight: 400;
+    padding: 0;
+    margin: 5px 0 0 0;
+}
+.Our-Team-Flex p{
+    width: 437px;
+    margin: 5px 0 0 0;
+}
+.Our-Team-Flex-2 img{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.Our-Team-Flex-2{
+    display: flex;
+    padding-top: 150px;
+    padding-left: 900px;
+align-items: center;
+    gap: 30px;
+}
+.Our-Team-Flex-2 h3{
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+.Our-Team-Flex-2 h4{
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+.Our-Team-Flex-2 p{
+    width: 437px;
+    margin: 5px 0 0 0;
+}
+.Our-Team-Text{
+    text-align:left;
+}
+.Our-Team-Text-2{
+    text-align: right;
+}
+.Our-Team-Btn{
+    text-align: center;
+}
+.Our-Team-Btn button{
+    width: 160px;
+    height: 45px;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    border: 0.1px solid rgb(107, 107, 107);
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.05);
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.Our-Team-Btn button:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+     top: 0;
+    left: 0; 
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.Our-Team-Btn button:hover:after{
+    background-position: -20% 0;
+}
+.Our-Team-Btn button:hover{
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    transform: translateY(-6px);
+}
+
+/*------Our-Team-End----*/
+
+/*-----Footer------*/
+.Footer{
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid rgb(206, 206, 206);
+    padding-bottom: 5px;
+}
+.Footer h4{
+    font-weight: 300;
+    margin: 0;
+}
+.Footer img{
+    width: 45px;
+}
+.Footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+}
+.Footer ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.Footer ul li a{
+    text-decoration: none;
+color: black;
+font-weight: 400;
+font-size: 12px;
+}
+.Logos{
+    display: flex;
+    padding-top: 20px;
+gap: 40px;
+    justify-content: center;
+}
+.Logo{
+    font-size:25px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.Logo:hover{
+    color: grey;
+}
+.Footer-End{
+    background-color: white;
+    padding-top: 8px;
+    margin-top: 20px;
+}
+.Footer-End h5{
+    font-weight: 300;
+    margin: 0;
+}
+/*-----Footer-End-----*/

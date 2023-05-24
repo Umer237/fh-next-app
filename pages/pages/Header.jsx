@@ -1,5 +1,6 @@
 import React from "react";
-import logo from '../pages/img/BG.jpg';
+
+import Image from "next/image";
 // import '../pages/Header.css'
 
 const Header = () => {
@@ -17,9 +18,7 @@ const Header = () => {
             <li>
               <a href="/">SERVICES</a>
             </li>
-           <logo
-          
-           />
+<Image src='/img/FH.png' width='45' height='60' alt="logo"/>
             <li>
               <a href="/">CONTACT</a>
             </li>

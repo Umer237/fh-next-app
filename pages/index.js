@@ -1,7 +1,11 @@
 import Header from './pages/Header'
 import Banner from './pages/Banner'
+import OurServices from './pages/OurServices'
+import Chooseus from './pages/ChooseUs'
 import { Inter } from 'next/font/google'
-// import styles from '@/styles/Home.module.css'
+import OurTeam from './pages/OurTeam'
+import Footer from './pages/Footer'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,6 +14,10 @@ export default function Home() {
     <>
      <Header/>
      <Banner/>
+     <OurServices/>
+     <Chooseus/>
+<OurTeam/>
+<Footer/>
     </>
   )
 }
