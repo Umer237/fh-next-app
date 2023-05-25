@@ -4,7 +4,7 @@ import Image from "next/image";
 const Banner = () => {
   return (
     <> 
-<Image src='/img/BG.jpg' width='1842' height='900' />
+<Image src='/img/BG.jpg' width='1897' height='900' />
         {/* <div className="Banner-Text">
         <h1>BRANDING</h1>
         <h2>unique and recongnizable</h2>

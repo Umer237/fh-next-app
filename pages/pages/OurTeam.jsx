@@ -1,4 +1,5 @@
 import React from "react";
+// import {Link} from "react-dom"
 
 const OurTeam = () => {
   return (
@@ -69,6 +70,7 @@ const OurTeam = () => {
       </div>
       <div className="Our-Team-Btn">
         <button>MEET ALL</button>
+     
       </div>
           {/* <div className="card">
 		<div className="info">
