@@ -42,7 +42,15 @@ p{
   /*--------Header-End--------*/
 
   /*--------Banner---------*/
+.Banner-BG{
+    background-image: url('/fh-next-app/pages/img/BG.jpg');
+    background-position: center;
+    height: 800px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
 .Banner-Text{
     padding-left: 100px;
     padding-top: 150px;
@@ -119,6 +127,10 @@ margin: 0;
 .Services-Top-Text h2{
     font-weight: 500;
     padding-top:20px ;
+    margin: 0;
+}
+.Services-Top-Text p{
+    margin: 0;
 }
 .First-row{
     display: flex;
@@ -219,10 +231,12 @@ cursor: pointer;
 }
 .Choose-Us-Text h2{
     font-weight: 500;
+    margin: 0;
 }
 .Choose-Us-Text p{
     width: 587px;
     padding-bottom: 20px;
+    margin: 0;
 }
 .Choose-Us-Text button{
     width: 180px;
@@ -278,6 +292,10 @@ cursor: pointer;
 }
 .OurTeam-Top-Text h2{
     font-weight: 500;
+    margin: 0;
+}
+.OurTeam-Top-Text p{
+    margin: 0;
 }
 .Our-Team-Flex img{
     width: 350px;
