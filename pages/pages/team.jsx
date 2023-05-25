@@ -1,9 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const team = () => {
   return (
     <>
+    <Header/>
       <div className="OurTeam-Top-Text">
         <h2>OUR TEAM</h2>
         <p>Alone we can do so little; together we can do so much.</p>
@@ -195,6 +198,8 @@ const team = () => {
           </p>
         </div>
       </div> */}
+
+      <Footer/>
     </>
   );
 };
