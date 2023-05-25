@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -14,7 +15,9 @@ const Banner = () => {
           “yours”. Essentially, these graphics will contains all the feature
           elements that are unique and recognizable for your business
         </p>
+        <Link href='/pages/about'>
         <button>ABOUT US</button>
+        </Link>
         </div>
         </div> 
     </>

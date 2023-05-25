@@ -1,16 +1,23 @@
 import React from 'react'
-import Link from 'next/link';
 import { GoGraph} from 'react-icons/go';
 import { BiBulb} from 'react-icons/bi';
 import { SlFilm} from 'react-icons/sl';
 import { BsMegaphone} from 'react-icons/bs';
 import { BsLaptop} from 'react-icons/bs';
 import { CiMobile3} from 'react-icons/ci';
+import { TfiPrinter} from 'react-icons/tfi';
+import { IoCalendarOutline} from 'react-icons/io5';
 
-const OurServices = () => {
+
+import Footer from './Footer';
+import Header from './Header';
+
+const services = () => {
   return (
-    <>
-    <div className='Services-Top-Text'>
+    
+  <>
+  <Header/>
+      <div className='Services-Top-Text'>
     <h2>OUR SERVICES</h2>
     <p>Focused on results we seek to raise the level of our customers.</p>
     </div>
@@ -59,14 +66,24 @@ const OurServices = () => {
 </p>
       </div>
     </div>
-    
-    <Link href='/pages/services'>
-    <div className='Services-Btn'>
-      <button>VIEW ALL</button>
+    <div className="First-row">
+      <div className='Box-1'> <div className="Icons">
+        <IoCalendarOutline/>
+        </div>
+      <h3>Event Planning</h3>
+      <p>Your brand strategy defines what you stand for, a promise you make, and the personality you convey.</p>
+      </div>
+      <div className='Box-1'> <div className="Icons">
+        <TfiPrinter/>
+        </div>
+        <h3>Print Media</h3>
+        <p>Creativity, Branding and Content are the most important ingredients for the success of any business. </p>
+      </div>
     </div>
-    </Link>
-    </>
+    <Footer/>
+  </>  
+   
   )
 }
 
-export default OurServices
+export default services

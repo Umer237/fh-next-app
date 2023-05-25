@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import Image from "next/image";
 // import '../pages/Header.css'
@@ -9,24 +10,36 @@ const Header = () => {
       <div className="NavBar">
         <nav>
           <ul>
-            <li>
-              <a href="/">HOME</a>
+     <li>
+            <Link href="/">
+              HOME
+            </Link>
             </li>
             <li>
-              <a href="/">ABOUT</a>
+            <Link href="/pages/about">
+              ABOUT
+            </Link>
             </li>
-            <li>
-              <a href="/">SERVICES</a>
+<li>
+            <Link href="/pages/services">
+              SERVICES
+            </Link>
             </li>
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
             <li>
-              <a href="/">CONTACT</a>
+            <Link href="/contact">
+              CONTACT
+            </Link>
             </li>
             <li>
-              <a href="/">TEAM</a>
+            <Link href="/pages/team">
+              TEAM
+            </Link>
             </li>
             <li>
-              <a href="/">PORTFOLIOS</a>
+            <Link href="/portfolios">
+              PORTFOLIOS
+            </Link>
             </li>
           </ul>
         </nav>
