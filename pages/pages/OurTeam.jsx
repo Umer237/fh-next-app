@@ -75,7 +75,7 @@ const OurTeam = () => {
         </div>
         <div>
             <Image 
-            src='/img/Asad.JPG' width={700} height={520}>
+            src='/img/Asad.JPG' width={600} height={480}>
 
             </Image>
         </div>
