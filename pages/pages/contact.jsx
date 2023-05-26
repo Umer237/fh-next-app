@@ -3,6 +3,7 @@ import Header from "./Header";
 import { AiOutlineMail} from 'react-icons/ai';
 import { TfiLocationPin} from 'react-icons/tfi';
 import { BsTelephone} from 'react-icons/bs';
+import Footer from "./Footer";
 
 
 const contact = () => {
@@ -39,6 +40,20 @@ Estate,Lahore,Pakistan
         <h4 className="top-h4">info@fhgroupoc.com</h4>
       </div>
     </div>
+    <div className="inputs">
+      <input className="input-1" type="text" placeholder="NAME" />
+      <br></br>
+      <input className="input-1" type="text" placeholder="EMAIL" />
+      <br></br>
+      <input className="input-1" type="text" placeholder="COMPANY" />
+      <br></br>
+      <textarea className="text-area" placeholder="MESSAGE" name="" id="" cols="76" rows="9"></textarea>
+      <br></br>
+    </div>
+    <div className="contact-us-button">
+    <button>SEND</button>
+    </div>
+    <Footer/>
     </>
   );
 };

@@ -427,11 +427,12 @@ cursor: pointer;
     text-align: center;
     margin-top: 120px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
 }
-.OurTeam-Top-Text h2{
-    font-weight: 500;
-    margin: 0;
+.OurTeam-Top-Text h1{
+    border: 4px solid black;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 .OurTeam-Top-Text p{
     margin: 0;
@@ -873,5 +874,71 @@ font-weight: 400;
 	text-align: center;
 	position: relative;
 }
+.inputs{
+    text-align: center;
+    
+}
+.input-1{
+    padding:10px ;
+    margin-top: 20px;
+    width: 500px;
+    outline: none;
+    height: 18px;
+}
+.text-area{
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+}
+.contact-us-button{
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-us-button button{
+    width: 160px;
+    height: 45px;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    border: 0.1px solid rgb(107, 107, 107);
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.05);
+    font-family: 'Poppins',sans-serif;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.contact-us-button button:after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%; 
+     top: 0;
+    left: 0; 
+    background: linear-gradient(
+        45deg,
+        transparent 50%,
+        rgba(255,255,255,0.03) 58%,
+        rgba(255,255,255,0.16) 67%,
+        transparent 68%
+    );
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+}
+.contact-us-button button:hover:after{
+    background-position: -20% 0;
+}
+.contact-us-button button:hover{
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    transform: translateY(-6px);
+}
+
 
 /*-------Contact-US-Page-End-----*/

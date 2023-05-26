@@ -18,7 +18,7 @@ const handleOnChange = () => {
       <div className="About-Us-Things">
         <Image src="/img/Aboutus.png" width={1131} height={625}></Image>
         <div>
-          <input type="text" placeholder='ENTER YOUR EMAIL' value={input} />
+          <input type="text" value={input}/>
           <button onClick={handleOnChange}>SEND</button>
         </div>
         <div>
