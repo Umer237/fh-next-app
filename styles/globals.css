@@ -427,12 +427,16 @@ cursor: pointer;
     text-align: center;
     margin-top: 120px;
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 .OurTeam-Top-Text h1{
     border: 4px solid black;
     margin-left: 32%;
     margin-right: 32%;
+}
+.OurTeam-Top-Text h2{
+    font-weight: 500;
+    margin: 0;
 }
 .OurTeam-Top-Text p{
     margin: 0;
@@ -942,3 +946,56 @@ font-weight: 400;
 
 
 /*-------Contact-US-Page-End-----*/
+
+/*--------PORTFOLIO-------*/
+
+.Portfolio-Top-Text{
+    text-align: center;
+}
+.Portfolio-Top-Text h1{
+    border: 4px solid black;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.Our-Client-First-Row{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 100px;
+    align-items: center;
+}
+.Our-Client-Second-Row{
+    display: flex;
+    gap:100px;
+    align-items: center;
+    padding-top: 100px;
+    justify-content: center;
+}
+.Our-Client-First-Row img{
+width: 200px;
+}
+.Our-Client-Second-Row img{
+    width: 200px;
+}
+.First-Row-Clients{
+    box-shadow: 0px 0px 32px rgba(0,0,0,0.25);
+    cursor: pointer;
+padding: 40px;
+}
+.Second-Row-Clients{
+    box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
+    padding: 40px;
+    cursor: pointer;
+}
+.Second-Row-Clients :hover{
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+.First-Row-Clients :hover{
+    transform: translateY(-10px);
+    transition: 0.7s;
+}
+
+
+
+/*--------PORTFOLIO-END--------*/
