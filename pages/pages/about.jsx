@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./Header";
 import Image from "next/image";
 import Footer from "./Footer";
 
 const about = () => {
+  const [input, setInput] = useState('ENTER YOUR EMAIL')
+const handleOnChange = () => {
+  setInput('')
+}
+
   return (
     <>
       <Header />
@@ -13,8 +18,8 @@ const about = () => {
       <div className="About-Us-Things">
         <Image src="/img/Aboutus.png" width={1131} height={625}></Image>
         <div>
-          <input type="text" placeholder="ENTER YOUR EMAIL" />
-          <button>SEND</button>
+          <input type="text" placeholder='ENTER YOUR EMAIL' value={input} />
+          <button onClick={handleOnChange}>SEND</button>
         </div>
         <div>
           <p>
@@ -27,6 +32,9 @@ const about = () => {
           </p>
         </div>
       </div>
+      <br />
+      <br />
+      <Footer/>
     </>
   );
 };

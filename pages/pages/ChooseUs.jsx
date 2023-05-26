@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Chooseus = () => {
   return (
@@ -20,7 +21,9 @@ const Chooseus = () => {
             be no need to look elsewhere.When looking for a one stop Solution FH
             is the name to go for,
           </p>
+          <Link href='/pages/contact'>
           <button>GET IN TOUCH</button>
+          </Link>
         </div>
       </div>
     </>

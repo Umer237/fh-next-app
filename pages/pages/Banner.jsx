@@ -1,11 +1,12 @@
 import React from "react";
+// import styles from 'next/image'
 import Image from "next/image";
 import Link from "next/link";
 
 const Banner = () => {
   return (
     <>
-    <div className="Banner-BG">
+    {/* <div className={styles["Banner-BG"]} src='/img/BG.jpg'> */}
 {/* <Image src='/img/BG.jpg' width='1897' height='900' /> */}
         <div className="Banner-Text">
         <h1>BRANDING</h1>
@@ -19,7 +20,7 @@ const Banner = () => {
         <button>ABOUT US</button>
         </Link>
         </div>
-        </div> 
+        {/* </div>  */}
     </>
   );
 };

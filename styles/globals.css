@@ -15,6 +15,9 @@ p{
     font-size: 12px;
     font-weight: 300;
 }
+h4{
+    font-weight: 400;
+}
 
 
 /*--------Header--------*/
@@ -43,31 +46,31 @@ p{
 
   /*--------Banner---------*/
  
-  .Banner-BG{
-    background-image: url('/fh-next-app/pages/img/BG.jpg');
+  /* .Banner-BG{
+    background-image: url('/fh-next-app/public/img/BG.jpg');
     background-position: center;
     height: 800px;
     width: 600px;
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
 .Banner-Text{
     padding-left: 100px;
     padding-top: 150px;
 }
-.Banner-BG h1{
+.Banner-Text h1{
     font-weight: 500;
     padding-top: 100px;
     line-height: 1;
 margin: 0;
 }
-.Banner-BG h2{
+.Banner-Text h2{
     font-weight: 500;
     line-height: 1.3;
     margin: 0;
 }
-.Banner-BG p{
+.Banner-Text p{
     width: 490px;
     padding-bottom: 20px;
 }
@@ -648,9 +651,10 @@ align-items: center;
 }
 .Our-Team-Text-2{
     text-align: right;
-}
+} */
 .Our-Team-Btn{
     text-align: center;
+    padding-top: 100px;
 }
 .Our-Team-Btn button{
     width: 160px;
@@ -696,7 +700,7 @@ align-items: center;
 .Our-Team-Btn button:hover{
     box-shadow: 15px 30px 32px rgba(0,0,0,0.25);
     transform: translateY(-6px);
-} */
+}
 
 /*------Our-Team-End----*/
 
@@ -787,3 +791,87 @@ gap: 40px;
     padding-top: 10px;
 }
 /*-----About-Us-End-----*/
+
+/*-------Contact-Us-Page-----*/
+
+.Contact-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.Contact-Top-Text h1{
+    border: 4px solid black;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.Contact-Text{
+    text-align: center;
+}
+.Contact-Text h4{
+    margin: 0;
+    font-weight: 300px;
+    font-size: 30px;
+}
+.Contact-Text p{
+    margin: auto;
+    width: 300px;
+}
+.Phone-Address-Mail{
+	/* background-color: #eeeeee; */
+	min-height: 100px;
+	width: 100%;
+	float: left;
+	padding:100px 0;
+}
+ .Phone-Address-Mail{
+	float: left;
+	width: 100%;
+}
+/* .Box-1{
+	width: 33.33%;
+	float: left;
+	padding:15px;
+}
+.Box-1{
+	padding:30px;
+	text-align: center;
+	position: relative;
+} */
+.Phone-Address-Mail{
+    display: flex;
+    padding-top: 50px;
+    /* background: #f5f5f5; */
+    text-align: center;
+    justify-content: space-evenly;
+}
+.Phone-Address-Mail div{
+cursor: pointer;
+    width: 300px;
+}
+.Phone-Address-Mail h3{
+    font-weight: 400;
+    margin: 0;
+}
+.Phone-Address-Mail h4{
+font-size: 18px;
+margin: 0;
+font-weight: 400;
+
+}
+.Phone-Address-Mail .top-h4{
+    padding-top: 20px;
+}
+.Things{
+    margin-top: 100px;
+	width: 33.33%;
+	float: left;
+	padding:15px;
+    /* box-shadow: 5px 5px 32px rgba(0,0,0,0.25); */
+}
+.Things{
+	padding:30px;
+	text-align: center;
+	position: relative;
+}
+
+/*-------Contact-US-Page-End-----*/

@@ -27,7 +27,7 @@ const Header = () => {
             </li>
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
             <li>
-            <Link href="/contact">
+            <Link href="/pages/contact">
               CONTACT
             </Link>
             </li>

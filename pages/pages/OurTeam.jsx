@@ -1,6 +1,7 @@
 import React from "react";
-// import {Link} from "react-dom"
+import Link from "next/link";
 import Image from "next/image";
+
 
 const OurTeam = () => {
   return (
@@ -75,8 +76,7 @@ const OurTeam = () => {
         </div>
         <div>
             <Image 
-            src='/img/Asad.JPG' width={600} height={480}>
-
+            src='/img/Asad.JPG' width={600} height={450}>
             </Image>
         </div>
       </div>
@@ -92,10 +92,21 @@ const OurTeam = () => {
             to be found elsewhere.</p>
         </div>
         <div>
-            <img src="https://scontent.fisb11-1.fna.fbcdn.net/v/t39.30808-6/347292518_1352463331984906_8970976841859751078_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ivOmcTsIASAAX_mTa2H&_nc_ht=scontent.fisb11-1.fna&oh=00_AfDNzXd165lnJvsmHlbLGX_4bhu1yHCRzJErCDkDcBIW_Q&oe=64738A1D" alt="" />
+           <Image
+           src='/img/Bilal.jpg'
+           width={600}
+           height={450}
+           >
+
+           </Image>
         </div>
       </div>
       </div>
+      <Link href='/pages/team'>
+      <div className='Our-Team-Btn'>
+      <button>MEET ALL</button>
+    </div>
+    </Link>
           {/* <div className="card">
 		<div className="info">
 			<span clasName="name">Mk Gulzar</span>
