@@ -25,7 +25,9 @@ const Header = () => {
               SERVICES
             </Link>
             </li>
+            <Link href='/'>
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
+</Link>
             <li>
             <Link href="/pages/contact">
               CONTACT
