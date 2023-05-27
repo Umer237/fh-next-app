@@ -19,7 +19,6 @@ const services = () => {
   <Header/>
       <div className='Services-Top-Text'>
     <h2>OUR SERVICES</h2>
-    <p>Focused on results we seek to raise the level of our customers.</p>
     </div>
     <div className="First-row">
       <div className='Box-1'> <div className="Icons">

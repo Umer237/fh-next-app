@@ -7,8 +7,7 @@ const OurTeam = () => {
   return (
     <>
        <div className="OurTeam-Top-Text">
-        <h2>OUR TEAM</h2>
-        <p>Alone we can do so little; together we can do so much.</p>
+        <h1>OUR TEAM</h1>
       </div>
       <div className="First-Section">
         <div>
