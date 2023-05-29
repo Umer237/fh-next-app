@@ -3,8 +3,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Banner = () => {
   return (
+    
     <>
     {/* <div className={styles["Banner-BG"]} src='/img/BG.jpg'> */}
 {/* <Image src='/img/BG.jpg' width='1897' height='900' /> */}

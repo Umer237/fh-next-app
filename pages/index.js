@@ -1,11 +1,14 @@
 import React from 'react'
+import '../styles/Home.module.css'
 import Header from './pages/Header'
 import Banner from './pages/Banner'
 import OurServices from './pages/OurServices'
 import Chooseus from './pages/ChooseUs'
 import OurTeam from './pages/OurTeam'
+import { motion, useScroll } from "framer-motion"
 import Footer from './pages/Footer'
-const index = () => {
+function index () {
+  const { scrollYProgress } = useScroll();
 
 //   let a = 'Harry'
 //   let b = 6
@@ -21,10 +24,11 @@ const index = () => {
 
 // a = 54
 
-  return (<>
+  return (
+  <>
 
 
-
+<motion.div  className="progress-bar" style={{ scaleX: scrollYProgress }} />  
 
 
 

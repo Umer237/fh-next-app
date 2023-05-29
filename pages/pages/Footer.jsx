@@ -15,12 +15,12 @@ const Footer = () => {
 </Link>
 <h4>ONE STEP SOLUTION PROVIDER</h4>
 <ul>
-    <li><a href="/home">HOME</a></li>
-    <li><a href="/about">ABOUT</a></li>
-    <li><a href="/services">SERVICES</a></li>
-    <li><a href="/contact">CONTACT</a></li>
-    <li><a href="/team">TEAM</a></li>
-    <li><a href="/portfolios">PORTFOLIOS</a></li>
+    <li><Link href="/">HOME  </Link></li>
+    <li><Link href="/pages/about">ABOUT </Link></li>
+    <li><Link href="/pages/services"> SERVICES</Link>  </li>
+    <li><Link href="/pages/contact"> CONTACT</Link> </li>
+    <li><Link href="/pages/team">TEAM </Link> </li>
+    <li><Link href="/pages/portfolio">PORTFOLIOS </Link> </li>
 </ul>
 <div className="Logos">
     <div className='Logo'>
