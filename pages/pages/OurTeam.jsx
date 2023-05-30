@@ -32,7 +32,7 @@ const OurTeam = () => {
       <div className="Second-Section">
       <div className="Second-Section-Member-1">
         <div>
-            <img src="https://scontent.fisb11-1.fna.fbcdn.net/v/t39.30808-6/347292518_1352463331984906_8970976841859751078_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ivOmcTsIASAAX_mTa2H&_nc_ht=scontent.fisb11-1.fna&oh=00_AfDNzXd165lnJvsmHlbLGX_4bhu1yHCRzJErCDkDcBIW_Q&oe=64738A1D" alt="" />
+            <img src="https://i.pinimg.com/280x280_RS/91/96/5d/91965df786a233928966cc673042aa91.jpg" alt="" />
         </div>
         <div className="Text-Area-2">
             <h2>Umer Afzal</h2>

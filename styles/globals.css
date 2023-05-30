@@ -201,8 +201,15 @@ margin: 0;
 cursor: pointer;
     width: 300px;
 }
+.First-row .Icons{
+    color: black;
+}
+.First-row .Box-1 p{
+    color: #000;
+}
 .First-row h3{
     font-weight: 400;
+    color: #000;
     margin: 0;
 }
 .Services-Top-Text h2{
@@ -302,6 +309,7 @@ cursor: pointer;
 .Second-row h3{
     font-weight: 400;
     margin: 0;
+    color: #000;
 }
 
 .Services-Btn{
@@ -353,6 +361,10 @@ cursor: pointer;
 }
 .Icons{
     font-size: 40px;
+    color: #000;
+}
+.Box-1 p{
+    color: #000;
 }
 
 /*---------Our-Services-End---------*/
@@ -1011,3 +1023,318 @@ padding: 40px;
 
 
 /*--------PORTFOLIO-END--------*/
+
+
+/*-------Brand-Strategy--------*/
+
+.Brand-Strategy-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Brand-Strategy-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 40%;
+    font-weight: 500;
+    margin-right: 40%;
+}
+.Brand-Strategy-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Brand-Strategy-Text h2{
+    font-weight: 500;
+}
+.Brand-Strategy-Text h4{
+    width: 790px;
+}
+.Brand-Strategy-Flex{
+    display: flex;
+    align-items: center;
+}
+.Brand-Strategy-Flex img{
+    padding-left: 100px;
+    padding-bottom: 190px;
+}
+/*-------Brand-Strategy-End-----*/
+
+/*-------Development-------*/
+
+.Development-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Development-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 40%;
+    font-weight: 500;
+    margin-right: 40%;
+}
+.Development-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Development-Text h2{
+    font-weight: 500;
+}
+.Development-Text h4{
+    width: 790px;
+}
+.Development-Flex{
+    display: flex;
+}
+.Development-img img{
+    width: 600px;
+    padding-left: 100px;
+    padding-top: 220px;
+    height: 440px;
+}
+.Development-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-------Development-End----*/
+
+/*-------Production-----*/
+
+.Production-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Production-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 40%;
+    font-weight: 500;
+    margin-right: 40%;
+}
+.Production-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Production-Text h2{
+    font-weight: 500;
+}
+.Production-Text h4{
+    width: 790px;
+}
+.Production-Flex{
+    display: flex;
+}
+.Production-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 250px;
+    height: 440px;
+}
+.Production-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-------Production-End----*/
+
+/*-----Outdoor-Marketing----*/
+
+.OutdoorMarketing-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.OutdoorMarketing-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 39%;
+    font-weight: 500;
+    margin-right: 39%;
+}
+.OutdoorMarketing-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.OutdoorMarketing-Text h2{
+    font-weight: 500;
+}
+.OutdoorMarketing-Text h4{
+    width: 790px;
+}
+.OutdoorMarketing-Flex{
+    display: flex;
+}
+.OutdoorMarketing-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 250px;
+    height: 440px;
+}
+.OutdoorMarketing-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-----Outdoor-Marketing-End----*/
+
+/*-----Social-Electronic-Media---*/
+
+.Social-Electronic-Media-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Social-Electronic-Media-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 36%;
+    font-weight: 500;
+    margin-right: 36%;
+}
+.Social-Electronic-Media-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Social-Electronic-Media-Text h2{
+    font-weight: 500;
+}
+.Social-Electronic-Media-Text h4{
+    width: 790px;
+}
+.Social-Electronic-Media-Flex{
+    display: flex;
+}
+.Social-Electronic-Media-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 220px;
+    height: 405px;
+}
+.Social-Electronic-Media-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-----Social-Electronic-Media-End---*/
+
+/*-----Event-Planning---*/
+
+.Event-Planning-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Event-Planning-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 28%;
+    font-weight: 500;
+    margin-right: 28%;
+}
+.Event-Planning-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Event-Planning-Text h2{
+    font-weight: 500;
+}
+.Event-Planning-Text h4{
+    width: 790px;
+}
+.Event-Planning-Flex{
+    display: flex;
+}
+.Event-Planning-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 180px;
+    height: 405px;
+}
+.Event-Planning-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-----Event-Planning-End---*/
+
+/*-----Print-Media------*/
+
+.Print-Media-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Print-Media-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 30%;
+    font-weight: 500;
+    margin-right: 30%;
+}
+.Print-Media-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Print-Media-Text h2{
+    font-weight: 500;
+}
+.Print-Media-Text h4{
+    width: 790px;
+}
+.Print-Media-Flex{
+    display: flex;
+}
+.Print-Media-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 180px;
+    height: 405px;
+}
+.Print-Media-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-----Print-Media-End-----*/
+
+/*----Creative-Content-----*/
+
+.Creative-Content-Top-Text{
+    text-align: center;
+    padding-top: 100px;
+}
+.Creative-Content-Top-Text h2{
+    border: 2px solid black;
+    margin-left: 40%;
+    font-weight: 500;
+    margin-right: 40%;
+}
+.Creative-Content-Text {
+ padding-top: 100px;
+    text-align: left;
+    padding-left: 200px;
+
+}
+.Creative-Content-Text h2{
+    font-weight: 500;
+}
+.Creative-Content-Text h4{
+    width: 790px;
+}
+.Creative-Content-Flex{
+    display: flex;
+}
+.Creative-Content-img img{
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 180px;
+    height: 405px;
+}
+.Creative-Content-Text h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*----Creative-Content-End----*/
