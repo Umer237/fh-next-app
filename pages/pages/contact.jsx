@@ -4,6 +4,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { TfiLocationPin } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
 import Footer from "./Footer";
+import Link from "next/link";
 
 const contact = () => {
   return (
@@ -72,7 +73,9 @@ const contact = () => {
       </div>
    
       <div className="contact-us-button">
+  <Link href='/pages/ThankYou'>
         <button>SEND</button>
+        </Link>
       </div>
       <Footer />
     </>

@@ -23,18 +23,26 @@ const Footer = () => {
     <li><Link href="/pages/portfolio">PORTFOLIOS </Link> </li>
 </ul>
 <div className="Logos">
+  <Link href='https://www.facebook.com/fhgroupofcompany'>
     <div className='Logo'>
 <FaFacebookF/>
 </div>
+</Link>
+<Link href='https://twitter.com/fhgroupoc'>
 <div className='Logo'>
 <FaTwitter/>
 </div>
+</Link>
+<Link href='https://www.instagram.com/fhgroupofcompany/'>
 <div className='Logo'>
 <FaInstagram/>
 </div>
+</Link>
+<Link href='https://www.linkedin.com/company/fhgroupoc/'>
 <div className='Logo'>
 <FaLinkedin/>
 </div>
+</Link>
 </div>
 <div className="Footer-End">
   <h5>Copyright © 2021 FH Group OF Companies Inc. All rights reserved. Privary Policy | Term of Use | Business and Reflect</h5>

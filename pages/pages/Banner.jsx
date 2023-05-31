@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     
     <>
-    {/* <div className={styles["Banner-BG"]} src='/img/BG.jpg'> */}
+    <div className='Banner-BG'>
 {/* <Image src='/img/BG.jpg' width='1897' height='900' /> */}
         <div className="Banner-Text">
         <h1>BRANDING</h1>
@@ -22,7 +22,7 @@ const Banner = () => {
         <button>ABOUT US</button>
         </Link>
         </div>
-        {/* </div>  */}
+        </div> 
     </>
   );
 };
