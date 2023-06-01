@@ -16,7 +16,7 @@ const Footer = () => {
 <h4>ONE STEP SOLUTION PROVIDER</h4>
 <ul> 
     <li><Link href="/">HOME  </Link></li>
-    <li><Link href="/pages/about">ABOUT </Link></li>
+    <li><Link href="/pages/About">ABOUT </Link></li>
     <li><Link href="/pages/services"> SERVICES</Link>  </li>
     <li><Link href="/pages/contact"> CONTACT</Link> </li>
     <li><Link href="/pages/team">TEAM </Link> </li>

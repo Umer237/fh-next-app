@@ -19,7 +19,7 @@ const Banner = () => {
           “yours”. Essentially, these graphics will contains all the feature
           elements that are unique and recognizable for your business
         </p>
-        <Link href='/pages/about'>
+        <Link href='/pages/About'>
         <button>ABOUT US</button>
         </Link>
         </div>

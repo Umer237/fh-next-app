@@ -42,6 +42,11 @@ h4{
     font-weight: 400;
     font-size: 12px;
   }
+  .NavBar button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
   .NavBar img {
     width: 45px;
     margin-top: 15px;
