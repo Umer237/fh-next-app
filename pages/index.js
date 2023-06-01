@@ -20,7 +20,7 @@ const handleOnClick = () => {
         <nav>
           <ul>      
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
-<button onClick={handleOnClick} value={navigate}>HOME</button>
+<button onClick={handleOnClick}>HOME</button>
 <button onClick={handleOnClick}>ABOUT</button>
 <button onClick={handleOnClick}>SERVICES</button>
 <button onClick={handleOnClick}>CONTACT</button>
