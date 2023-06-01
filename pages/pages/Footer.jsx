@@ -14,7 +14,7 @@ const Footer = () => {
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
 </Link>
 <h4>ONE STEP SOLUTION PROVIDER</h4>
-<ul>
+<ul> 
     <li><Link href="/">HOME  </Link></li>
     <li><Link href="/pages/about">ABOUT </Link></li>
     <li><Link href="/pages/services"> SERVICES</Link>  </li>

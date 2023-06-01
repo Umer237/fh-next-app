@@ -4,13 +4,8 @@ import Link from "next/link";
 const Chooseus = () => {
   return (
     <>
+    <div className="BG-Choose-Us">
       <div className="Choose-Us-Flex">
-        <div>
-          <img
-            src="https://contenteam.com/wp-content/uploads/2021/10/trading_articles_copy-min-1024x923.png"
-            alt=""
-          />
-        </div>
         <div className="Choose-Us-Text">
           <h2>Why Choose Us ?</h2>
           <p>
@@ -25,6 +20,7 @@ const Chooseus = () => {
           <button>GET IN TOUCH</button>
           </Link>
         </div>
+      </div>
       </div>
     </>
   );

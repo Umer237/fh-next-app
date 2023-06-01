@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
 }
 h1{
     font-size: 100px;
+    font-weight: 800;
 }
 h2{
     font-size: 37px;
@@ -14,6 +18,7 @@ h3{
 p{
     font-size: 12px;
     font-weight: 300;
+    line-height: 20px;
 }
 h4{
     font-weight: 400;
@@ -23,16 +28,13 @@ h4{
 /*--------Header--------*/
 .NavBar ul {
     display: flex;
-    background: linear-gradient(360deg, #ffffff 0%, #eeeeee 0%);
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 0px;
-  /* align-items: center; */
     list-style: none;
   }
   .NavBar ul li {
     text-decoration: none;
-    margin-top: 35px;
   }
   .NavBar ul li a {
     text-decoration: none;
@@ -41,38 +43,57 @@ h4{
     font-size: 12px;
   }
   .NavBar img {
-    padding: 15px;
     width: 45px;
+    margin-top: 15px;
+    margin-bottom: 8px;
   }
   /*--------Header-End--------*/
 
   /*--------Banner---------*/
  
 .Banner-BG{
-    background: linear-gradient(360deg, #ffffff 39%, #eeeeee 10%);
-padding-bottom: 300px;
+    /* background: linear-gradient(120deg, #cecece 52.5%, #edeae5 40%);
+padding-bottom: 300px; */
+background-image:  url('/img/Banner-BG-2.jpg');
+  filter: blur(3 px);
+  -webkit-filter: blur(3px);
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .Banner-Text{
-    padding-left: 100px;
-    padding-top: 150px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
 .Banner-Text h1{
-    font-weight: 500;
+    /* font-weight: 500; */
     padding-top: 100px;
     line-height: 1;
-    color: #000000;
+
+    color: #ffffff;
 margin: 0;
 }
 .Banner-Text h2{
     font-weight: 500;
     line-height: 1.3;
     margin: 0;
-    color: black;
+    color: #ffffff;
 }
 .Banner-Text p{
     width: 490px;
+    margin: auto;
+    padding-top: 10px;
     padding-bottom: 20px;
-    color: #000;
+    color: #ffffff;
 }
 
 .Banner-Text button{
@@ -81,12 +102,12 @@ margin: 0;
     margin: auto;
     top:0;
     bottom: 0;
-    border: 0.1px solid rgb(0, 0, 0);
+    border: 0.1px solid rgb(255, 255, 255);
     left: 0;
     right: 0;
     background-color: rgba(255,255,255,0.05);
     font-family: 'Poppins',sans-serif;
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 2px;
     backdrop-filter: blur(8px);
@@ -125,8 +146,8 @@ margin: 0;
 
 .Services-Top-Text{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 5px;
 }
 /* .Box-1{
     padding: 50px;
@@ -164,7 +185,7 @@ margin: 0;
 }
  .Box-1:hover::after,
  .Box-1:hover::before{
-   border-color: #d3e3fc;
+   border-color: #000000;
    width: 100%;
    height: 100%;
 }
@@ -179,16 +200,7 @@ margin: 0;
 	float: left;
 	width: 100%;
 }
-.Box-1{
-	width: 33.33%;
-	float: left;
-	padding:15px;
-}
-.Box-1{
-	padding:30px;
-	text-align: center;
-	position: relative;
-}
+
 
 .First-row{
     display: flex;
@@ -199,7 +211,7 @@ margin: 0;
 }
 .First-row div{
 cursor: pointer;
-    width: 300px;
+    width: 260px;
 }
 .First-row .Icons{
     color: black;
@@ -257,7 +269,6 @@ cursor: pointer;
 	position: absolute;
 	right:0;
 	top:0;
-
 	width:0;
 	box-sizing: border-box;
 	height:0;
@@ -267,9 +278,8 @@ cursor: pointer;
 }
  .Box-1:hover::after,
  .Box-1:hover::before{
-   border-color: rgb(82, 82, 82);
+   border-color: #000000;
    box-shadow: 15px 30px 32px rgba(0,0,0,0.10);
-
    width: 100%;
    height: 100%;
 }
@@ -279,7 +289,7 @@ cursor: pointer;
 	width: 100%;
 	float: left;
 	padding:100px 0;
-}
+} 
  .Second-row{
 	float: left;
 	width: 100%;
@@ -304,7 +314,7 @@ cursor: pointer;
 }
 .Second-row div{
 cursor: pointer;
-    width: 300px;
+    width: 290px;
 }
 .Second-row h3{
     font-weight: 400;
@@ -370,24 +380,36 @@ cursor: pointer;
 /*---------Our-Services-End---------*/
 
 /*---------ChooseUs-------*/
+
+.BG-Choose-Us{
+    background-image: url('/img/Choose-Us-BG.jpg');
+    background-position: center;
+ height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
 .Choose-Us-Flex{
     display: flex;
-    padding-top: 100px;
+padding-top: 100px;
+padding-bottom: 100px;
+    margin-top: 100px;
     justify-content: space-evenly;
     align-items: center;
 }
 .Choose-Us-Flex img{
-    width: 550px;
+    width: 600px;
 }
 .Choose-Us-Text{
     text-align: center;
 }
 .Choose-Us-Text h2{
     font-weight: 500;
+    color: white;
     margin: 0;
 }
 .Choose-Us-Text p{
     width: 587px;
+    color: white;
     padding-bottom: 20px;
     margin: 0;
 }
@@ -397,12 +419,12 @@ cursor: pointer;
     margin: auto;
     top:0;
     bottom: 0;
-    border: 0.1px solid rgb(107, 107, 107);
+    border: 0.1px solid rgb(255, 255, 255);
     left: 0;
     right: 0;
     background-color: rgba(255,255,255,0.05);
     font-family: 'Poppins',sans-serif;
-    color: #000;
+    color: #ffffff;
     font-size: 18px;
     letter-spacing: 2px;
     backdrop-filter: blur(8px);
@@ -736,11 +758,14 @@ align-items: center;
 .Footer h4{
     font-weight: 300;
     margin: 0;
+    padding-top: 10px;
 }
 .Footer img{
     width: 45px;
 }
 .Footer ul{
+    padding-top: 7px;
+    padding-bottom: 7px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -772,7 +797,7 @@ gap: 40px;
     color: grey;
 }
 .Footer-End{
-    background-color: white;
+
     padding-top: 8px;
     margin-top: 20px;
 }
@@ -786,6 +811,9 @@ gap: 40px;
 
 .About-Us-Top-Text{
     text-align: center;
+ 
+
+    padding-top: 20px;
 }
 .About-Us-Top-Text h1{
     font-size: 50px;
@@ -796,6 +824,7 @@ gap: 40px;
 }
 .About-Us-Things{
     text-align: center;
+
 }
 .About-Us-Things input{
     width: 600px;
@@ -1308,9 +1337,9 @@ padding: 40px;
 }
 .Creative-Content-Top-Text h2{
     border: 2px solid black;
-    margin-left: 40%;
+    margin-left: 39%;
     font-weight: 500;
-    margin-right: 40%;
+    margin-right: 39%;
 }
 .Creative-Content-Text {
  padding-top: 100px;

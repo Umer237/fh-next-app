@@ -35,7 +35,7 @@ const OurServices = () => {
         <BsLaptop/>
         </div>
         <h3>Development</h3>
-        <p>Development is a process that creates growth, progress, positive change or the addition of physical, economic, environmental</p>
+        <p>Development is a process that creates growth, progress, positive change or the addition of physical,</p>
       </div>
       </Link>
     </div>

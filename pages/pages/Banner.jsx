@@ -8,7 +8,8 @@ const Banner = () => {
   return (
     
     <>
-    <div className='Banner-BG'>
+    <div className='Banner-BG'> </div> 
+
 {/* <Image src='/img/BG.jpg' width='1897' height='900' /> */}
         <div className="Banner-Text">
         <h1>BRANDING</h1>
@@ -22,7 +23,7 @@ const Banner = () => {
         <button>ABOUT US</button>
         </Link>
         </div>
-        </div> 
+       
     </>
   );
 };
