@@ -6,32 +6,40 @@ import '../styles/Home.module.css'
 import Home from "./pages/Home";
 import About from './pages/About'
 import Footer from "./pages/Footer";
+import Services from "./pages/Services";
 
 function index () {
 
-const [navigate, SetNavigate] = useState(<Home/>)
+  
+const [page2, SetPage2] = useState(<Home/>)
+const [page1, SetPage] = useState('')
 
 
-const handleOnClick = () => {
-  SetNavigate((<About/>))
+const handleOnClick = () => { 
+
+
+  SetPage2((<About/>))
+  // SetPage2((<Services/>))
 }
+
   return (
   <>
      <div className="NavBar">
         <nav>
           <ul>      
 <Image src='/img/FH.png' width='45' height='60' alt="logo"/>
-<button onClick={handleOnClick}>HOME</button>
+<button >HOME</button>
 <button onClick={handleOnClick}>ABOUT</button>
-<button onClick={handleOnClick}>SERVICES</button>
-<button onClick={handleOnClick}>CONTACT</button>
-<button onClick={handleOnClick}>TEAM</button>
-<button onClick={handleOnClick}>PORTFOLIOS</button>
+<button>SERVICES</button>
+<button>CONTACT</button>
+<button>TEAM</button>
+<button>PORTFOLIOS</button>
           </ul>
         </nav>
       </div>
-   <Home value={navigate}/>
-  <Footer/>
+      {page2}
+   {/* <Home value={page1} /> */}
+  {/* <Footer/> */}
 </>
 
   )
