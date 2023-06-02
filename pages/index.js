@@ -9,11 +9,11 @@ import Footer from "./pages/Footer";
 
 function index () {
 
-const [navigate, SetNavigate] = useState('')
+const [navigate, SetNavigate] = useState(<Home/>)
 
 
 const handleOnClick = () => {
-  SetNavigate(<About/>)
+  SetNavigate((<About/>))
 }
   return (
   <>
