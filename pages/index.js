@@ -5,6 +5,7 @@ import Image from "next/image";
 import '../styles/Home.module.css'
 import Home from "./pages/Home";
 import About from './pages/About'
+import Footer from "./pages/Footer";
 
 function index () {
 
@@ -30,7 +31,9 @@ const handleOnClick = () => {
         </nav>
       </div>
    <Home value={navigate}/>
+  <Footer/>
 </>
+
   )
 }
 
