@@ -16,8 +16,7 @@ const [page1, SetPage] = useState('')
 
 
 const handleOnClick = () => { 
-
-
+  SetPage((<Services/>))
   SetPage2((<About/>))
   // SetPage2((<Services/>))
 }
