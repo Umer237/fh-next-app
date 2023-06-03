@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Footer from "./pages/Footer";
 import Services from "./pages/Services";
 function index() {
-  const [page2, SetPage2] = useState(<Home />);
+  const [page2, SetPage2] = useState(<Home />,);
   const [page, SetPage] = useState('');
   const handleOnClick = () => {
     SetPage2(<About />);
