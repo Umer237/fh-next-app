@@ -4,16 +4,17 @@ import OurServices from './OurServices'
 import Chooseus from './ChooseUs'
 import OurTeam from './OurTeam'
 import Footer from './Footer'
+import DataSend from './DataSend'
 
 const Home = () => {
   return (
   <>
-<Banner/>
+{/* <Banner/>
 <OurServices/>
 <Chooseus/>
 <OurTeam/>
-<Footer/>
-
+<Footer/> */}
+<DataSend/>
 </>
   )
 }

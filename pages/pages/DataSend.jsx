@@ -1,49 +1,31 @@
-import React from 'react'
-import { useForm, ValidationError } from '@formspree/react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const DataSend = () => {
-    const [state, handleSubmit] = useForm("xbjepvbr");
-    if (state.succeeded) {
-        return <p>Thanks for joining</p>;
-    }
+ const DataSend = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qhw5nao', 'template_ojjin3j', form.current, 'Cf05K6Z2aSFSxdhhl')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
-<>
-<form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-      </label>
-      <input
-      placeholder='NAME'
-        id="NAME"
-        type="NAME" 
-        name="NAME"
-      />
-      <input
-      placeholder='LAST NAME'
-      name='Last Name'
-      id='Last Name'
-      type="Last Name" />
-      <input 
-      name='Email'
-      id='Email Address'
-      placeholder='EMAIL ADDRESS'
-      type="Email Address" />
-      <ValidationError 
-        prefix="Email" 
-        field="email"
-        errors={state.errors}
-      />
-      <ValidationError 
-        prefix="Message" 
-        field="message"
-        errors={state.errors}
-      />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
     </form>
-</>
-
-  )
-}
+  );
+};
 
 export default DataSend
